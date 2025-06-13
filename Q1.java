@@ -6,7 +6,7 @@ import java.util.*;
 @SpringBootApplication
 @RestController
 @RequestMapping("/products")
-public class ProductApiApplication {
+public class Q1 {
     private List<Product> products = new ArrayList<>();
     public static void main(String[] args) {
         SpringApplication.run(ProductApiApplication.class, args);
