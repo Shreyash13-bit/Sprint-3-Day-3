@@ -11,7 +11,7 @@ import java.util.*;
 @SpringBootApplication
 @RestController
 @RequestMapping("/users")
-public class UserApiApplication {
+public class Q2 {
     private List<User> users = Arrays.asList(
         new User(1, "Alice"),
         new User(2, "Bob")
